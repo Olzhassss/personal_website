@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.text-black {
+		color: #212529;
+	}
+
+	.container {
+		@apply px-4;
+	}
+}
+
+@layer base {
+	html,
+	body {
+		@apply text-black;
+		font-family: 'Roboto', sans-serif;
+		scroll-behavior: smooth;
+	}
+
+	section {
+		@apply py-12;
+	}
+
+	h1 {
+		@apply text-5xl;
+		@apply text-center;
+		@apply font-light;
+		@apply mb-12;
+	}
+
+	h2 {
+		@apply text-3xl;
+	}
+
+	h3 {
+		@apply text-xl;
+	}
+
+	h4 {
+		@apply text-lg;
+	}
+
+	h5 {
+		@apply text-base;
+	}
+
+	.custom-scrollbar::-webkit-scrollbar {
+		width: 6px;
+	}
+	.custom-scrollbar::-webkit-scrollbar-thumb {
+		@apply rounded-md;
+		background-color: #a49f9f6e;
+	}
+	.custom-scrollbar::-webkit-scrollbar-track {
+		@apply my-1;
+	}
+
+	.bg-gradient {
+		background: linear-gradient(
+			315deg,
+			rgba(65, 182, 230, 1) 0%,
+			rgba(61, 160, 185, 1) 19%,
+			rgba(89, 178, 214, 1) 37%,
+			rgba(79, 191, 174, 1) 53%,
+			rgba(68, 203, 166, 1) 69%,
+			rgba(62, 164, 173, 1) 85%,
+			rgba(65, 182, 230, 1) 100%
+		);
+		background-size: 800% 800%;
+		animation: GradientBackground 20s ease-in-out infinite;
+		@apply text-white;
+	}
+	@-webkit-keyframes GradientBackground {
+		0% {
+			background-position: 0 22%;
+		}
+		50% {
+			background-position: 100% 79%;
+		}
+		to {
+			background-position: 0 22%;
+		}
+	}
+	@keyframes GradientBackground {
+		0% {
+			background-position: 0 22%;
+		}
+		50% {
+			background-position: 100% 79%;
+		}
+		to {
+			background-position: 0 22%;
+		}
+	}
+
+	li.nav-link {
+		@apply mx-3;
+		@apply hover:text-brandBlue;
+		@apply transition-all;
+		@apply duration-150;
+	}
+
+	header nav.active {
+		@apply right-0;
+	}
+
+
+	@keyframes GradientBackground{0%{background-position:0 22%}50%{background-position:100% 79%}to{background-position:0 22%}}
+}
+
+@layer null {
+	*,
+	*:before,
+	*:after {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		box-sizing: border-box;
+	}
+
+	html,
+	body {
+		height: 100%;
+	}
+
+	/* HTML5 display-role reset for older browsers */
+	article,
+	aside,
+	details,
+	figcaption,
+	figure,
+	footer,
+	header,
+	hgroup,
+	menu,
+	nav,
+	section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol,
+	ul {
+		list-style: none;
+	}
+	blockquote,
+	q {
+		quotes: none;
+	}
+	blockquote:before,
+	blockquote:after,
+	q:before,
+	q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	a:hover,
+	a:focus,
+	a:link {
+		color: inherit;
+	}
+}
