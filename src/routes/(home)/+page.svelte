@@ -13,7 +13,7 @@
             <li>
                 <span class="text-4xl font-semibold text-purple-800">MENU</span>
             </li>
-            {#each data.linkList as link}
+            {#each data.navigation as link}
                 <li class="hover:text-purple-500 text-purple-900 transition group font-light">
                     <a class="block relative" href="{link.href}">{link.text}
                         <span class="absolute bottom-0 left-0 h-0.5 bg-purple-500

@@ -2,10 +2,10 @@ import type { PageLoad } from './$types';
 
 export const load = (async ({ fetch }) => {
     return {
-        linkList: [
+        navigation: [
             {
-                text: "Blog entry",
-                href: "/#blog",
+                text: "About me",
+                href: "/about",
             },
             {
                 text: "Blog entry",
