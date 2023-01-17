@@ -25,7 +25,7 @@
         <div class="w-[60%] ml-8 p-0.5 rounded bg-purple-700
             transition duration-1000 {rotateDuration ? "hover:-rotate-2" : "hover:rotate-2"}"
         >
-            <img src="/1.jpg" alt="Fantasy art" class="max-w-full rounded pointer-events-none">
+            <img src="/images/1.jpg" alt="Fantasy art" class="max-w-full rounded pointer-events-none">
         </div>
     </div>
 </section>
