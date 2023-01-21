@@ -1,5 +1,6 @@
 <script lang="ts">
     import type { PageData } from './$types';
+    import { base } from "$app/paths";
     import img1 from '$lib/images/1.jpg';
     export let data: PageData;
 
@@ -15,7 +16,7 @@
             </li>
             {#each data.navigation as link}
                 <li class="hover:text-purple-500 text-purple-900 transition group font-light">
-                    <a class="block relative" href="{link.href}">{link.text}
+                    <a class="block relative" href="{base + link.href}">{link.text}
                         <span class="absolute bottom-0 left-0 h-0.5 bg-purple-500
                             w-0 group-hover:w-full transition-all duration-700"></span>
                     </a>

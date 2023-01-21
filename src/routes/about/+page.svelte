@@ -86,11 +86,11 @@
     </div>
 </section>
 
-<section>
+<!-- <section>
     <div class="mx-auto container cursor-default">
         <h2 class="mb-4 font-semibold">Want to be friends? <span class="text-slate-300 text-sm">Why not? Just solve the puzzle!</span></h2>
         <div>
             
         </div>
     </div>
-</section>
+</section> -->
