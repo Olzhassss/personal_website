@@ -108,8 +108,17 @@
 		@apply right-0;
 	}
 
-
-	@keyframes GradientBackground{0%{background-position:0 22%}50%{background-position:100% 79%}to{background-position:0 22%}}
+	@keyframes GradientBackground {
+		0% {
+			background-position: 0 22%;
+		}
+		50% {
+			background-position: 100% 79%;
+		}
+		to {
+			background-position: 0 22%;
+		}
+	}
 }
 
 @layer null {

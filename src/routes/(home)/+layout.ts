@@ -1,5 +1,5 @@
 import type { LayoutLoad } from './$types';
 
 export const load = (async ({ fetch }) => {
-    return {}
+	return {};
 }) satisfies LayoutLoad;
