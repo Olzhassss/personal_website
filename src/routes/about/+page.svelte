@@ -3,6 +3,7 @@
 	import type { PageData } from './$types';
 
 	export let data: PageData;
+
 	let start = false;
 	let lines = [
 		{
@@ -71,10 +72,13 @@
 <section>
 	<div class="mx-auto container cursor-default">
 		<h2 class="mb-4 font-semibold">
-			What do I like? <a
+			What do I like?
+			<a
 				href="https://reflectionsfromaredhead.com/things-i-love/"
-				class="text-slate-300 text-sm hover:text-cyan-400 transition">Original source &larr;</a
+				class="text-slate-300 text-sm hover:text-cyan-400 transition"
 			>
+				Original source &larr;
+			</a>
 		</h2>
 		<div class="h-48 w-full relative">
 			<div
