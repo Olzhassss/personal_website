@@ -49,7 +49,7 @@
 			<h1 class="text-left ml-[20%] mb-4 text-purple-800">
 				My works
 				<span class="text-base">
-					(click to browse)
+					(click on title to browse)
 				</span>
 			</h1>
 			<hr class="w-1/2 ml-[18%] border-purple-800" />
@@ -58,25 +58,31 @@
 </section>
 
 
-<section class="hover:bg-cyan-50 transition duration-700">
-	<a href="{base}/blog">
-	<div class="mx-auto container text-purple-800 " id="blog">
-		<div class="flex">
-			<div class="">	
-				<h2 class="mb-4 font-semibold">
-					Blog entry
-				</h2>
-				<p class="pl-4">
-					OH NO THIS IMAGE IS A SPOILER OF THE BLOG TARGET!<br>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus vel rerum dolorum deleniti hic, itaque recusandae iusto dicta eum cum illo iure consectetur laborum molestiae, in quod aliquid et.
+<section>
+	<div class="mx-auto container text-purple-800" id="blog">
+		<div class="flex mx-24">
+			<div class="flex flex-col justify-center">	
+				<a href="{base}/blog">
+					<h2 class="mb-4 font-semibold text-center hover:text-purple-500 transition">
+						Blog entry
+					</h2>
+				</a>
+				<p class="mx-8">
+					This blog entry is a rhetorical/visual analysis of <b class="">Tokyo Ghoul</b> on the example of one chapter.
+					If you are not aware, here is some general info about Tokyo Ghoul from <a href="https://en.wikipedia.org/wiki/Tokyo_Ghoul" class="text-purple-500">Wikipedia</a>:
 				</p>
+				<span class="mx-16 my-4 text-justify relative [&_i]:italic [&_i]:font-bold">
+					<h2 class=" font-bold absolute top-0 -left-5">"</h2>
+					<i>Tokyo Ghoul</i> is a Japanese dark fantasy manga series written and illustrated by Sui Ishida. It was serialized in Shueisha's seinen manga magazine Weekly Young Jump between September 2011 and September 2014, and was collected in fourteen tankōbon volumes. ... A sequel, titled <i>Tokyo Ghoul:re</i>, was serialized in Weekly Young Jump between October 2014 and July 2018, and was collected in sixteen tankōbon volumes. The story is set in a world where vicious species, known as ghouls, creatures that look like normal people but can only survive by eating human flesh, live among the human population in secrecy.
+					<h2 class=" font-bold absolute top-0 -right-5">"</h2>
+				</span>
+				<p class="mx-8 italic">Note: Beware spoilers!</p>
 			</div>
-			<div class="mx-4 shrink-0">
-				<img src="{blog_preview_img}" class="max-h-[350px] max-w-[350px] p-0.5 rounded bg-purple-700" alt="Screenshot from Tokyo Ghoul as blog entry preview">
+			<div class="mx-4 shrink-0 max-w-[33%]">
+				<img src="{blog_preview_img}" class="p-[10%] rounded bg-purple-900" alt="Screenshot from Tokyo Ghoul as blog entry preview">
 			</div>
 		</div>
 	</div>
-</a>
 </section>
 
 <div class="pb-2"></div>
