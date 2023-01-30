@@ -18,11 +18,17 @@
 </div>
 
 <section>
-    <h1>Analysis of <b class="">Tokyo Ghoul</b>
+    <h1 class="mb-2">
+        Analysis of <b class="">Tokyo Ghoul</b>
+    </h1>
+    <div class="text-center">
         <a class="text-base hover:text-myGreen transition" href="https://ww9.tokyoghoulre.com/chapter/tokyo-ghoulre-chapter-053/">
             [Access the source here &larr;]
         </a>
-    </h1>
+        <a class="text-base hover:text-myGreen transition" href="https://github.com/Olzhassss/personal_website/blob/master/src/routes/blog/Entry.md.svelte">
+            [Access the markdown here &larr;]
+        </a>
+    </div>
 </section>
 
 <section class="pt-0">

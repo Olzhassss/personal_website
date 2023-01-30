@@ -25,6 +25,10 @@
         @apply text-xl;
         @apply font-bold;
     }
+
+    p > a {
+        @apply underline;
+    }
 </style>
 
 ## Dear reader!
@@ -48,7 +52,7 @@ Manga, to put it simply, is a Japanese version of American comic books. It is a 
 + There are text balloons, captions and plain text that express sounds, voices, thoughts and other elements.
 + Main elements are made by drawing with ink and brush (on paper or digitally). Somewhat unlike American comic book genre, manga is mostly black and white.
 + Manga chapters are read right-to-left, top-down (printed books also start from the “last” page, from a western point of view).
-+ Some decorations, backgrounds and shadows are applied with screentones (link).
++ Some decorations, backgrounds and shadows are applied with [screentones](https://en.wikipedia.org/wiki/Screentone).
 + In text, ellipses usually mean silence, not omission of something.
 
 Although frame is the fundamental content block of manga, it is common to see content “outside” frames – in such cases the page (or entire two-page spread!) becomes the frame. Speech balloons (another basic element) also can be used in a great variety of forms and functions. Like every comic, manga utilizes non-standard fonts and writing styles. Thus, there’s a lot of space for creativity both in content and in presentation for this genre.
@@ -79,7 +83,7 @@ There is also the CCG – a non-governmental organization that is “the ministr
     <Image src="characters/kaneki5.jpg" alt="Ken Kaneki" classes="h-[220px] inline-block" caption="Ken Kaneki in the end" />
 </div>
 
-**Ken Kaneki** – this guy is the main character. He was a human. He lived without parents for many years – father is unknown and mother died of overworking and emotional abuse by her sister. Ken said he loved his mother. He also had a single friend in school. After an accident he almost lost his life but was saved with a surgical operation. But during the operation RC cells of one ghoul were inserted into him, and he became a human-ghoul. He could no longer eat as humans (now only flesh). Since then, Ken struggled with understanding own nature and his place in the world – should he eat fellow-humans to survive, what about his friendship, is he human or not at all, does he represent either of the races or none? (By the way, this story is full of suffering). Then, he made friends with a few ghouls that became his family. Later, he was taken away and cruelly tortured until he became gray-haired and almost went crazy. Eventually he escaped and, indeed, grew more ruthless, sadistic and egoistic. Tokyo Ghoul ended as Ken was detained by “the Reaper” Kisho Arima after the CCG commenced an operation to eliminate Ken’s “family”. Just before the final battle, injured Ken stumbled upon his friend. Unexpectedly, his friend sacrificed own flesh so that Ken could regenerate; and no one has seen him since. The sequel started with Ken Kaneki becoming Haise Sasaki – a new personality with all memories of the past lost. Haise worked for CCG, mentoring the Quinx squad. He admired Kisho Arima and got a new family. For some time, Haise lived almost merrily in comparison to Ken. Even though his past was hidden from him, with time he began to remember bits of contradictory feelings. This way Haise met the young boy Ken with white hairs (see the pic.) in the sub consciousness for the first time. Haise initially was scared of his own ghoulish side and this boy, but eventually decided to learn more about Ken Kaneki.
+**Ken Kaneki** – this guy is the main character. He was a human. He lived without parents for many years – father is unknown and mother died of overworking and emotional abuse by her sister. Ken said he loved his mother. He also had a single friend in school. After an accident he almost lost his life but was saved with a surgical operation. But during the operation RC cells of one ghoul were inserted into him, and he became a human-ghoul. He could no longer eat as humans (now only flesh). Since then, Ken struggled with understanding own nature and his place in the world – should he eat fellow-humans to survive, what about his friendship, is he human or not at all, does he represent either of the races or none? (By the way, this story is full of suffering). Then, he made friends with a few ghouls that became his family. Later, he was taken away and cruelly tortured until he became gray-haired and almost went crazy. Eventually he escaped and, indeed, grew more ruthless, sadistic and egoistic. Tokyo Ghoul ended as Ken was detained by “the Reaper” Kisho Arima after the CCG commenced an operation to eliminate Ken’s “family”. Just before the final battle, injured Ken stumbled upon his friend. Unexpectedly, his friend sacrificed own flesh so that Ken could regenerate; and no one has seen him since. The sequel started with Ken Kaneki becoming Haise Sasaki – a new personality with all memories of the past lost. Haise worked for CCG, mentoring the Quinx squad. He admired Kisho Arima and got a new family. For some time, Haise lived almost merrily in comparison to Ken. Even though his past was hidden from him, with time he began to remember bits of contradictory feelings. This way Haise met the kid Ken with white hairs (see the pic.) in the sub consciousness for the first time. Haise initially was scared of his own ghoulish side and this boy, but eventually decided to learn more about Ken Kaneki.
 
 <div class="w-full flex justify-center mb-8">
     <Image src="characters/tsukiyama1.webp" alt="Shu Tsukiyama" classes="h-[300px]" caption="Young Shu" />
@@ -90,13 +94,19 @@ There is also the CCG – a non-governmental organization that is “the ministr
 
 **Shu Tsukiyama and Kanae (Karren) von Rosewald** – Shu is the son of the head of an influential upper-class ghouls family, while Kanae was one of the family’s ghoul servants. For this chapter it is enough to now that, in the distant past, Kanae lost her family, changed gender and name, and then was sheltered *as a boy* by the Tsukiyama family (Shu is her cousin). So far we know that she loved Shu but concealed her feelings (and gender) from him for decades for the sake of not disturbing her master. Kanae was responsible for finding provision (humans) and once was almost captured by the CCG. Then she went missing. Just before this chapter, the CCG launched an extermination operation of the Tsukiyama family, and Haise came with other investigators to kill Shu and the servants. The operation took place in a high-rise building with CCG investigators gradually clearing floors one by one from the bottom. Shu waited at the roof for an escape by helicopter. Haise went directly to the roof, met Shu and almost killed him. Then Kanae suddenly appeared and intervened. Haise lost his hand, almost died but fought back with the help of a sudden surge of unintended Ken’s will.
 
-<div>picture</div>
+<div class="w-full flex justify-center mb-8">
+    <Image src="characters/eto1.png" alt="Eto Yoshimura" classes="h-[300px]" caption="Eto Yoshimura" />
+    <Image src="characters/eto2.png" alt="Eto in the shell" classes="h-[300px]" caption="Eto in the shell" />
+</div>
 
-**Eto** - is a powerful semi-ghoul (ghoul born from a human, hell yeah) with mutated RC cells that allow her to build-up artificial shell from kagune. Eto was the one who kidnapped, brainwashed and tortured Kanae (stitched her mouse and eyes alongside other things). Eto told her to stop concealing her desires and that killing Haise would bring Shu’s attention to her. In this chapter Eto appeared to watch the fight between Kanae and Haise.
+**Eto** is a powerful semi-ghoul (ghoul born from a human, hell yeah) with mutated RC cells that allow her to build-up artificial shell from kagune. Eto was the one who kidnapped, brainwashed and tortured Kanae (stitched her mouse and eyes alongside other things). Eto told her to stop concealing her desires and that killing Haise would bring Shu’s attention to her. In this chapter Eto appeared to watch the fight between Kanae and Haise.
 
-<div>picture</div>
+<div class="w-full flex justify-center mb-8">
+    <Image src="characters/ui1.jpg" alt="Koori Ui" classes="h-[300px]" caption="Koori Ui" />
+    <Image src="characters/ihei1.webp" alt="Hairu Ihei" classes="h-[300px]" caption="Hairu Ihei" />
+</div>
 
-**Koori Ui and Hairu Ihei** - Koori is a top-rank investigator, while Hairu was his partner. Koori was described as emotionally constrained, while Hairu was his opposite. Crucially, Koori spent a lot of time with Hairu. During the operation, Hairu lead her squad on the frontline. However, a few chapters ago Hairu’s squad engaged in a furious combat with two servants where she was beheaded. Meanwhile, Koori was fighting in a different place and, in this chapter, finally reached the place of her death.
+**Koori Ui and Hairu Ihei** - Koori is a top-rank investigator, while Hairu was his partner. Koori was described as emotionally constrained, while Hairu as his opposite. Crucially, Koori spent a lot of time with Hairu. During the operation, Hairu lead her squad on the frontline. However, a few chapters ago Hairu’s squad engaged in a furious combat with two servants where she was beheaded. Meanwhile, Koori was fighting in a different place and, in this chapter, finally reached the place of her death.
 
 
 ## Summary of the chapter and Pre-iconography
@@ -113,7 +123,7 @@ The summary as pre-iconography:
 8.	Kanae hysterically repeated “I will be loved” while furiously kicking Haise’s head.
 9.	A single page showed how Shirazu fought another ghoul somewhere else in the building. (Shirazu is one of the Quinx that were mentored by Haise; “Sassan” is a shortened “Sasaki-san”, where “-san” is a Japanese suffix of politeness).
 10.	Haise appeared falling among ventilation, panels and walls of black and white square tiles.
-11.	Haise appeared lying on a tiled floor with young white-haired Ken over his head.
+11.	Haise appeared lying on a tiled floor with white-haired kid Ken over his head.
 12.	By the “what-you-see-is-what-you-get” approach (VD: Iconology), what happened next seems like complete non-sense – flying cubes, flowers, talk about death and salvation, two of them sitting on a tower and Ophiocordyceps sinensis emerging from Haise. Some text was black over white, the other was reversed, and the third was with stroke.
 13.	Finally, Haise’s hair and face started pouring with blood or something black, and the character awakened with blackened hairs and ghoul’s eye, pictured upside down.
 
@@ -132,9 +142,9 @@ In this chapter, Sui Ishida describes three different events that happen at the 
 
 Before the chapter, author includes two pages of contextual information about the CCG, ghouls and main characters of the volume (53th chapter is first in a volume). Given the time frame between producing volumes, this serves the purpose of reminding readers of the world setting and involved characters. It is clear that author effectively utilizes proximity (Universal Principles of Design [UPD], p.160), similarity (p. 184) and uniform connectedness (p. 200) to show relatedness between pages and content, but also division between ghouls and humans via inverted colors (humans with white background, ghouls with black). It can be said that there is the inherit perception bias against ghouls because white signifies “the good” and black “the bad”, although actually none of the characters fall under either category. This is probably unintentional because in eastern cultures white and black usually signify Yin and yang – the symbol of interconnectedness and interdependence. The author did not account for differences in culture (since people outside Japanese culture were not the author’s primary audience). Instead, using shades of gray or particular screentones would account for cultural differences.
 
-### Emphasis and highlights
+### Form and modal expression
 
-Throughout the chapter, the original artists (and localizators) use color, shading and screentones, strokes and lines, highlights, fonts and font sizes, onomatopoeia and sound symbolism, text balloon shapes, layout and frame shapes and sizes to focus readers’ attention, bring feeling of motion, sound and space (thanks to three-dimensional projection, UPD, p. 194) to the visuals (in addition to invoking particular emotions). Below are several pages with my notes on this.
+Throughout the chapter, the original artists (and localizators) use variations of color, shading and screentones, strokes and lines, highlights, fonts and font sizes, onomatopoeia and sound symbolism, text balloon shapes, layout and frame shapes and sizes to focus readers’ attention, bring feeling of motion, sound and space (thanks to three-dimensional projection, UPD, p. 194) to the visuals (in addition to invoking particular emotions). Below are several pages with my notes on this.
 
 <div class="overflow-x-auto whitespace-nowrap mb-8">
     <Image src="page_7_edited.jpg" alt="page 7 edited" classes="mx-[10%] inline-block w-[80%]" />
@@ -143,6 +153,13 @@ Throughout the chapter, the original artists (and localizators) use color, shadi
     <Image src="page_13_edited.jpg" alt="page 13 edited" classes="mx-[10%] inline-block w-[40%]" />
     <Image src="page_15_edited.jpg" alt="page 15 edited" classes="mx-[10%] inline-block w-[40%]" />
     <div class="mx-[10%] inline-block"></div>
+</div>
+
+<div class="w-full h-max flex items-center">
+    <p>
+        But there sometimes can be too much of irregularity per frame. In such cases, readers might lose focus, become disoriented; the reading flow becomes disrupted. Arguably, it is a conscious choice between placing the elements (particularly literal text) in some order to direct the reader, and placing them chaotically to express confusing nature of an episode by actually confusing the readers as well (see <a href="#haise_and_ken">Haise and Ken</a>)! Nevertheless, I believe the frames on the picture had better be cleared up a bit from sound effects because it is redundant.
+    </p>
+    <Image src="page_15_cropped.jpg" alt="page 15 cropped" classes="mx-4 w-[20%] shrink-0" />
 </div>
 
 
@@ -161,17 +178,27 @@ Koori, however, was unsuccessful, which is implied by the usage of a large detai
 Another interesting point is that the author did not show Hairu’s dead body. There is a clear signifier – a large frame with a dramatic pause (big balloon with just an ellipsis) and a small frame of Koori’s hand squeezing his quinque (implied by the “SQZ”). What is signified is that Koori did found the body and, however he tried to suppress any emotions, some still leaked out. Koori was described as almost emotionless before this chapter. As an iconic interpretation, this depiction of his thoughts and reaction shows that, after all, he did have affection towards Hairu, her death is a blow to him, and he is not as emotionally restrained as it seemed.
 
 
+#### Haise and Ken <span id="haise_and_ken"></span>
 
-#### Kanae and Shu
+<Image src="Kaneki_vs_Yamori.webp" alt="Kaneki escaping the torturer" classes="float-right ml-4 w-[20%]" caption="Kaneki escaping the torturer" />
 
-Meaning behind “I will be loved”
+The black and white tiles during Haise's subconscious episode is a recurring theme for Ken. It first appears in the torture room where Ken was held in Tokyo Ghoul. Then, every time Kaneki falls into sub consciousness, the theme returns as if to remind where it all did started (the signified). Author used the created association between the torture and the tiles to express the same dark feelings without appealing to torture again. Moreover, as Haise falls among ventilation, it is seen that the form somewhat resembles three-dimensional labyrinth. By using resemblance of a complicated ventilation system and panels, author might be trying to show that Haise falls into a chaotic labyrinth of own sub consciousness. The chaotic theme is further reinforced by the set of incoherent phrases placed irregularly on the page spread and flying themed cubes. Such visual and linguistic expression helps in communicating the character’s struggle between personalities and reality. There are also red spider lilies on the ground (another recurrent theme for Ken) that work as a symbol of [“loss, longing, abandonment and lost memories”](https://pudding-shota.tumblr.com/post/98010698699/flower-symbolism-in-tokyo-ghoul-from-this-gif) and death.
 
-#### Haise and Ken
+<div class="overflow-x-auto whitespace-nowrap mb-8">
+    <Image src="page_17.jpg" classes="mx-[10%] inline-block w-[40%]" />
+    <Image src="page_18.jpg" classes="mx-[10%] inline-block w-[80%]" />
+    <Image src="page_19.jpg" classes="mx-[10%] inline-block w-[40%]" />
+    <Image src="page_20.jpg" classes="mx-[10%] inline-block w-[40%]" />
+    <div class="mx-[10%] inline-block"></div>
+</div>
 
-Meaning behind abstract space and black-white tiles: chaos, subconscious, labyrinth of mind and soul
-Meaning behind the dialogue between Sasaki and white “soul” of Kaneki
 
+Then the author sought to share Ken’s dread of trauma of childhood abuse using first frame on the next page (no background with entire focus on text and the image), his mother’s gesture, and hysterical repetition of apology with Ken’s scared look. It might come as a shock to readers that Ken was concealing this fact from himself so much as to think that he “used to love Mom”, and that the final battle of Tokyo Ghoul should have brought a heroic death to him.
+
+When Haise talks to Ken in his kid form, author uses Ophiocordyceps sinensis (first mentioned by kid Ken in Tokyo Ghoul: Re chapter 32) to signify the fact that Haise is dead, intruded and consumed by the fungus, so (interpretation) only Ken will inevitably remain in the body as a person.
+
+Finally, the author depicts gradual metamorphosis of Haise into Ken by coloring hairs of the former back into Ken’s natural color – black, and by merging previously divided white and black text balloons into something in between for Haise’s final phrase “Yeah”. So, here the author successfully complements textual narration and voices (context and purpose) with expressive images and symbolism (iconography, semiotics and form).
 
 ## Conclusion
 
-As I have shown, this manga is overflowing with various design choices (form), signs and implicit meaning that can be uncovered with an iconographical analysis, all of which blends together into a soup of entertainment, story and art. Not all chapters are like this one, but I argue that this chapter has mostly effectively implemented semiotics, iconography and form to deliver its purpose.
+As I have shown, this manga is overflowing with various design choices (form), signs and implicit meaning that can be uncovered with an iconographical analysis, all of which blends together into a soup of entertainment, story and art. Not all chapters are like this one, but I argue that this chapter has effectively implemented semiotics, iconography and form to deliver its purpose in its narrative and textual context.
