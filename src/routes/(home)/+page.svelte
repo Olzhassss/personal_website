@@ -3,6 +3,7 @@
 	import { base } from '$app/paths';
 	import img1 from '$lib/images/1.jpg';
 	import blog_preview_img from '$lib/images/blog_preview.webp';
+	import digital_narrative_preview_img from '$lib/images/dn_thumbnail.png';
 	export let data: PageData;
 
 	let rotateDuration = true;
@@ -61,7 +62,7 @@
 <section>
 	<div class="mx-auto container text-purple-800" id="blog">
 		<div class="flex mx-24">
-			<div class="flex flex-col justify-center">	
+			<div class="flex flex-col justify-center flex-auto">	
 				<a href="{base}/blog">
 					<h2 class="mb-4 font-semibold text-center hover:text-purple-500 transition">
 						Blog entry
@@ -80,6 +81,28 @@
 			</div>
 			<div class="mx-4 shrink-0 max-w-[33%]">
 				<img src="{blog_preview_img}" class="p-[10%] rounded bg-purple-900" alt="Screenshot from Tokyo Ghoul as blog entry preview">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="mx-auto container text-purple-800" id="digital_narrative">
+		<div class="flex mx-24">
+			<div class="flex flex-col justify-center flex-auto">	
+				<a href="{base}/projects/digital_narrative">
+					<h2 class="mb-4 font-semibold text-center hover:text-purple-500 transition">
+						Digital Narrative
+					</h2>
+				</a>
+				<p class="mx-8">
+					This digital narrative is a story of me from the past making a love confession to a girl through music. Enjoy!
+					<br><br>
+					«Love» Note - Everyone wants to be creative, confident and hopeful when confessing one's own feelings to someone. Same goes for me from the past, who, after many doubts, finally decided to express feelings... through a piano performance.
+				</p>
+			</div>
+			<div class="mx-4 shrink-0 max-w-[33%]">
+				<img src="{digital_narrative_preview_img}" class="p-[10%] rounded bg-purple-900" alt="Screenshot from Tokyo Ghoul as blog entry preview">
 			</div>
 		</div>
 	</div>

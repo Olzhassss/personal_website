@@ -12,8 +12,8 @@ export const load = (async ({ fetch }) => {
 				href: '/#blog'
 			},
 			{
-				text: 'Blog entry',
-				href: '/#blog'
+				text: 'Digital narrative',
+				href: '/#digital_narrative'
 			}
 		]
 	};

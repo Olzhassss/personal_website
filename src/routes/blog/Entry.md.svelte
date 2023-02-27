@@ -1,6 +1,6 @@
 <script>
     let title = "TITLE";
-    import Image from "./Image.svelte";
+    import Image from "$lib/components/Image.svelte";
 </script>
 
 <style>
