@@ -14,6 +14,10 @@ export const load = (async ({ fetch }) => {
 			{
 				text: 'Digital narrative',
 				href: '/#digital_narrative'
+			},
+			{
+				text: 'Public service announcement',
+				href: '/#public_service'
 			}
 		]
 	};

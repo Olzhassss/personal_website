@@ -1,0 +1,1 @@
+const e=async({fetch:t})=>({navigation:[{text:"About me",href:"/about"},{text:"Blog entry",href:"/#blog"},{text:"Digital narrative",href:"/#digital_narrative"},{text:"Public service announcement",href:"/#public_service"}]}),r=Object.freeze(Object.defineProperty({__proto__:null,load:e},Symbol.toStringTag,{value:"Module"}));export{r as _,e as l};
