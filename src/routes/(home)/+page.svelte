@@ -59,7 +59,7 @@
 
 
 <section>
-	<ProjectCard title="Blog entry" img_url="/images/project_preview_imgs/blog_preview.webp" page_uri="/blog" card_id="blog" img_alt="Screenshot from Tokyo Ghoul as blog entry preview">
+	<ProjectCard title="Blog entry" img_url="/images/project_preview_imgs/blog_preview.webp" page_uri="/projects/blog" card_id="blog" img_alt="Screenshot from Tokyo Ghoul as blog entry preview">
 		<p class="mx-8">
 			This blog entry is a rhetorical/visual analysis of <b class="">Tokyo Ghoul</b> on the example of one chapter.
 			If you are not aware, here is some general info about Tokyo Ghoul from <a href="https://en.wikipedia.org/wiki/Tokyo_Ghoul" class="text-purple-500">Wikipedia</a>:
@@ -84,9 +84,18 @@
 </section>
 
 <section>
-	<ProjectCard title="Public Service announcement" img_url="/images/project_preview_imgs/psa_thumbnail.png" page_uri="/projects/public_service" card_id="public_service" img_alt="Public Service Announcement video thumbnail">
+	<ProjectCard title="Public service announcement" img_url="/images/project_preview_imgs/psa_thumbnail.png" page_uri="/projects/public_service" card_id="public_service" img_alt="Public Service Announcement video thumbnail">
 		<p class="mx-8">
 			We all know that plastic is a problem. But did you know that, among all sectors, packaging is by far the largest plastic production driver? In this video, I discuss plastic packaging waste.
+		</p>
+	</ProjectCard>
+</section>
+
+<section>
+	<ProjectCard title="Video blog" img_url="/images/project_preview_imgs/vlog_thumbnail.png" page_uri="/projects/vlog" card_id="vlog" img_alt="Vlog thumbnail">
+		<p class="mx-8">
+			Bye bye spring 2023, welcome summer holidays!<br>
+			Hope you will enjoy this vlog of mine.
 		</p>
 	</ProjectCard>
 </section>

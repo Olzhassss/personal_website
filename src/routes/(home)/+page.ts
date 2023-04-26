@@ -18,6 +18,10 @@ export const load = (async ({ fetch }) => {
 			{
 				text: 'Public service announcement',
 				href: '/#public_service'
+			},
+			{
+				text: 'Video blog',
+				href: '/#vlog'
 			}
 		]
 	};

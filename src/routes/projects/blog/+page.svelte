@@ -25,7 +25,7 @@
         <a class="text-base hover:text-myGreen transition" href="https://ww9.tokyoghoulre.com/chapter/tokyo-ghoulre-chapter-053/">
             [Access the source here &larr;]
         </a>
-        <a class="text-base hover:text-myGreen transition" href="https://github.com/Olzhassss/personal_website/blob/master/src/routes/blog/Entry.md.svelte">
+        <a class="text-base hover:text-myGreen transition" href="https://github.com/Olzhassss/personal_website/blob/master/src/routes/projects/blog/Entry.md.svelte">
             [Access the markdown here &larr;]
         </a>
     </div>

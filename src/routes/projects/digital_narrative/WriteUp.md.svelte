@@ -60,7 +60,7 @@ The assignment took quite a lot of effort and time, as expected. I knew that my 
 
 So, the video starts with an introductory long-to-full shot with narration before the establishing shot. I used narration to explain the plot in parallel with action because it saves time. Both shots establish the setting around the video’s central venue – the piano room. The title is then displayed to be contrasted with the light floor color. I also aligned the cut with the music to provide smooth (fitting) transition. I used high-paced, lightweight, instrumental background music in accordance with the pace, mood and associations with a piano, correspondingly.
 
-### At home, before slideshow<span id="3"></span>
+### At home, before the slideshow<span id="3"></span>
 
 The static shot behind the monitor is filmed with wide angle because otherwise my face would be too close and space around me not clear. I admit that it might have been better not to show the back side of the monitor that much, which I considered when filming myself from this angle again later.
 
